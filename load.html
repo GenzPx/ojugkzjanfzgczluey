@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Natural</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #e8f5e9;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .leaf {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            opacity: 0.85;
+            will-change: transform;
+            z-index: 10;
+        }
+
+        @keyframes falling {
+            0% {
+                transform: translateY(-10%) rotate(0deg) scale(0.8);
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.8;
+            }
+            100% {
+                transform: translateY(110vh) rotate(360deg) scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="leaves-container"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.getElementById('leaves-container');
+            const colors = ['#2e7d32', '#388e3c', '#43a047', '#4caf50', '#66bb6a'];
+            
+            // Create 15 leaves
+            for (let i = 0; i < 15; i++) {
+                createLeaf(container, colors);
+            }
+
+            // Random redirect between 1-10 seconds
+            const redirectTime = 1000 + Math.random() * 9000;
+            setTimeout(() => {
+                window.location.href = 'ojugkzjanfzgczluey.html';
+            }, redirectTime);
+        });
+
+        function createLeaf(container, colors) {
+            const leaf = document.createElement('div');
+            leaf.className = 'leaf';
+            
+            // Random properties
+            const size = 15 + Math.random() * 25;
+            const startX = Math.random() * 100;
+            const duration = 5 + Math.random() * 10;
+            const delay = Math.random() * 5;
+            const colorIndex = Math.floor(Math.random() * colors.length);
+            const rotation = Math.random() * 360;
+            const scale = 0.7 + Math.random() * 0.6;
+            
+            // Set leaf appearance using emoji as simple shape
+            leaf.innerHTML = '🍃';
+            leaf.style.fontSize = `${size}px`;
+            leaf.style.color = colors[colorIndex];
+            leaf.style.filter = `hue-rotate(${rotation/3}deg) brightness(0.9)`;
+            
+            // Animation properties
+            leaf.style.left = `${startX}vw`;
+            leaf.style.animation = `falling ${duration}s ease-in ${delay}s infinite`;
+            leaf.style.transform = `rotate(${rotation}deg) scale(${scale})`;
+            
+            container.appendChild(leaf);
+        }
+    </script>
+</body>
+</html>

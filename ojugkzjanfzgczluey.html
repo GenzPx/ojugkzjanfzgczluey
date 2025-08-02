@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rambut Alami – Solusi Herbal untuk Kerontokan Rambut | 100% Natural</title>
+    <meta property="og:title" content="Rambut Alami - Solusi Herbal Kerontokan Rambut">
+<meta property="og:description" content="Spray, tetes, dan oles herbal alami yang bantu menumbuhkan rambut hanya dalam 7 hari.">
+<meta property="og:image" content="logo2.jpeg">
+<meta property="og:url" content="https://ojugkzjanfzgczluey.netlify.app/">
+<meta name="description" content="Temukan solusi alami untuk mengatasi kerontokan rambut dengan produk herbal terpercaya. Rambut Alami menghadirkan formula 100% natural tanpa efek samping.">
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="kerontokan rambut, obat herbal rambut rontok, solusi rambut rontok, rambut alami, produk rambut herbal, perawatan rambut alami">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="icon" href="logo.png">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #2d3436;
+            scroll-behavior: smooth;
+            line-height: 1.7;
+            max-width: 100vw;
+            overflow-x: hidden;
+        }
+
+        @media (max-width: 768px) {
+            html {
+                font-size: 14px;
+            }
+        }
+        header {
+            background-color: #2e8b57;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            color: white;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+        }
+        
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 5px 10px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        nav a:hover {
+            background-color: rgba(255,255,255,0.2);
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                padding: 10px;
+            }
+            nav {
+                margin-top: 10px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            nav a {
+                margin: 5px 8px;
+                font-size: 0.9rem;
+            }
+        }
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #a8e6cf 0%, #dcedc1 100%);
+            background-size: cover;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #2d3436;
+            font-weight: 600;
+            font-size: 1.8rem;
+            line-height: 1.4;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 20px 0;
+            font-size: 1rem;
+        }
+        .cta-button {
+            background-color: #2e8b57;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(46, 139, 87, 0.3);
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(46, 139, 87, 0.4);
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2e8b57;
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .products, .testimonials, .benefits, .usage {
+            display: flex;
+            justify-content: center;
+            padding: 20px 10px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                padding: 30px 15px;
+            }
+            .section-title {
+              font-size: 1.5rem;
+            }
+        }
+        .card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            padding: 20px;
+            text-align: center;
+            width: 280px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(46, 139, 87, 0.1);
+            margin: 0;
+        }
+
+.product-img {
+  border-radius: 15px;
+    width: 100%; /* Mengatur lebar gambar agar sesuai dengan card */
+    max-height: 250px;
+    height: auto; /* Mengatur tinggi gambar secara otomatis */
+    object-fit: cover; /* Memastikan gambar ter-crop dengan baik */
+}
+
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(46, 139, 87, 0.15);
+        }
+        
+        
+        .testimonial-card {
+            max-width: 350px;
+            position: relative;
+            padding-top: 40px;
+        }
+        
+        .testimonial-photo {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: -35px;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 3px solid white;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+.footer {
+  background-color: #2e8b57;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.footer-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.footer h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.footer p {
+  margin: 10px 0;
+  font-size: 0.95rem;
+  color: #f0f0f0;
+}
+
+.footer-socials {
+  margin: 15px 0;
+}
+
+.footer-socials a {
+  margin: 0 10px;
+  color: white;
+  font-size: 1.4rem;
+  transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #dfffe2;
+}
+
+.footer .copyright {
+  font-size: 0.8rem;
+  color: #dcdcdc;
+  margin-top: 20px;
+}
+        .rating {
+            font-size: 1.2em;
+            margin: 30px 0;
+            text-align: center;
+        }
+        .rating::before {
+            content: "★ ★ ★ ★ ★";
+            color: #ffb400;
+            font-size: 1.5em;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .agree-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.agree-section p {
+    font-weight: 500;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.agree-buttons {
+    margin-top: 10px;
+}
+
+.agree-button {
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.agree-button:hover:not(.pressed):not(:disabled) {
+    background-color: #256c45;
+}
+
+.agree-button.pressed {
+    background-color: #1e5636;
+}
+
+.agree-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.faq .accordion {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  background-color: #f1f1f1;
+  color: #2d3436;
+  font-weight: 600;
+  width: 100%;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.3s ease;
+  border-radius: 10px;
+}
+
+.faq-question:hover {
+  background-color: #e0e0e0;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+  padding: 0 20px;
+}
+
+.faq-answer p {
+  margin: 15px 0;
+  color: #555;
+}
+.faq-item.active .faq-answer {
+  max-height: 500px;
+  transition: max-height 0.6s ease;
+}
+.logo {
+  max-width: 40px;
+}
+.benefits ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.benefits li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.benefits li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #2e8b57;
+  font-weight: bold;
+}
+    </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-container" style="display: flex; align-items: center; gap: 10px;">
+    <img src="logo.png" class="logo" style="height: 40px;">
+    <h1 style="margin: 0;">Rambut Alami</h1>
+  </div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#testimoni">Testimoni</a>
+    <a href="#varian">Produk</a>
+  </nav>
+</header>
+
+<section class="hero">
+    <h2>Rambut Rontok? Numbuhin rambut gak perlu bingung lagi.</h2>
+    <p>Perkenalkan Rambut Alami, perawatan herbal homemade yang meresap sampai akar.</p>
+</section>
+
+<section id="varian" class="products">
+    <div class="card">
+        <img src="spray.jpeg" alt="Spray" class="product-img">
+        <div class="rating"></div>
+        <h3>Spray 300ml</h3>
+        <p>Rp25.000</p>
+        <p>Cara Pakai: cukup seprotkan ke area yang mengalami kebotakan secara rutin 2X sehari, siang dan malam selama 2-3 minggu</p>
+            <button class="cta-button" onclick="window.location.href='https://wa.me/46726409694'">Pre-order via WhatsApp</button>
+    </div>
+    <div class="card">
+        <img src="botol.jpeg" alt="Tetes" class="product-img">
+        <div class="rating"></div>
+        <h3>Tetes 300ml</h3>
+        <p>Rp25.000</p>
+        <p>Cara pakai: teteskan cairannya ke bagian rambut yang rontok dengan rutin dan konsisten selama 1-2 minggu</p>
+            <button class="cta-button" onclick="window.location.href='https://wa.me/46726409694'">Pre-order via WhatsApp</button>
+    </div>
+    <div class="card">
+        <img src="oles.jpeg" alt="Oles" class="product-img">
+        <div class="rating"></div>
+        <h3>Oles 600ml</h3>
+        <p>Rp30.000</p>
+        <p>cara pakai: cukup usapkan ke bagian rambut yang botak, selama 1-3 bulan</p>
+            <button class="cta-button" onclick="window.location.href='https://wa.me/46726409694'">Pre-order via WhatsApp</button>
+    </div>
+</section>
+
+
+<section class="benefits">
+    <h2>Manfaat Produk</h2>
+    <ul>
+        <li>Mengurangi kerontokan dalam 7 hari</li>
+        <li>Membantu menumbuhkan rambut dari akar</li>
+        <li>Cocok untuk pria & wanita</li>
+        <li>Aman untuk kulit kepala sensitif</li>
+    </ul>
+</section>
+
+<section id="rating" class="rating">
+    <h2>Rating Pelanggan</h2>
+    <p><strong>4.1/5</strong></p>
+    <p id="agree-status">Apakah anda setuju produk ini bermanfaat?</p>
+    <div class="agree-buttons">
+        <button class="agree-button" id="btn-yes">Iya</button>
+        <button class="agree-button" id="btn-no">Tidak</button>
+    </div>
+    <p id="agree-count" style="margin-top: 10px;">50 dari 70 orang menyetujuinya</p>
+</section>
+
+<section id="testimoni" class="testimonials">
+    <h2 class="section-title">Top testimoni</h2>
+    <div class="testimonial-card card">
+        <img src="pfp1.jpg" alt="Dina" class="testimonial-photo">
+        <div class="rating">★★★★☆</div>
+        <p>Gacor banget anjg, Rambut gw rontok kemaren, sekarang alhamdullilah mulai tumbuh, mantaf gan</p>
+        <p class="testimonial-info"><strong>Dimas papeda</strong><br>Pemakai 2 bulan</p>
+    </div>
+    <div class="testimonial-card card">
+        <img src="pfp2.jpg" alt="Bayu" class="testimonial-photo">
+        <div class="rating">★★★★★</div>
+        <p>Bagus juga bang, 3 minggu make ini udah mulai keliatan rambut barunya, jadi gak malu dah gw ke club kalo kayak gini </p>
+        <p class="testimonial-info"><strong>Ucok sepeda</strong><br>Pemakai 3 bulan</p>
+    </div>
+    <div class="testimonial-card card">
+        <img src="pfp3.jpg" alt="Lila" class="testimonial-photo">
+        <div class="rating">★★★★☆</div>
+        <p>mantap, bagus banget bang, btw umur abang yang punya workshop ini berapa?</p>
+        <p class="testimonial-info"><strong>Lila W.</strong><br>Pemakai 6 minggu</p>
+    </div>
+</section>
+
+<section class="faq">
+  <h2 class="section-title">Pertanyaan Umum</h2>
+
+  <div class="accordion">
+
+    <div class="faq-item">
+      <button class="faq-question">Apakah produk ini benar-benar herbal?</button>
+      <div class="faq-answer">
+        <p>Iya. Kami hanya menggunakan bahan alami seperti minyak kemiri, lidah buaya, daun urang-aring, dan ekstrak rosemary, tanpa tambahan bahan kimia sintetis.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Berapa lama pemakaian sampai terlihat hasil?</button>
+      <div class="faq-answer">
+        <p>Biasanya dalam 7–14 hari sudah mulai tampak perubahan. Hasil maksimal bisa terlihat dalam 1–2 bulan tergantung kondisi kulit kepala dan konsistensi pemakaian.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Apa produk ini cocok untuk semua usia?</button>
+      <div class="faq-answer">
+        <p>Produk ini aman digunakan untuk usia 7 tahun ke atas. Untuk anak-anak, tetap disarankan pemakaian di bawah pengawasan orang tua.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Apa perbedaan antara spray, tetes, dan oles?</button>
+      <div class="faq-answer">
+        <p>Spray: praktis untuk area luas dan cepat meresap. <br>Tetes: lebih terfokus untuk titik kebotakan. <br>Oles: cocok untuk pijat dan pemakaian malam hari karena lebih pekat.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Apa aman dipakai setiap hari?</button>
+      <div class="faq-answer">
+        <p>Iya. Justru untuk hasil optimal, disarankan pemakaian 2 kali sehari: pagi dan malam sebelum tidur.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Bisa digunakan saat rambut basah?</button>
+      <div class="faq-answer">
+        <p>Sebaiknya digunakan saat rambut kering agar kandungan herbal bisa terserap sempurna ke kulit kepala.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Kalau saya punya ketombe, boleh pakai?</button>
+      <div class="faq-answer">
+        <p>Boleh. Bahkan beberapa pengguna merasakan ketombenya berkurang karena formulanya menyehatkan kulit kepala.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Produk ini halal?</button>
+      <div class="faq-answer">
+        <p>Iya, bahan-bahan yang digunakan alami dan tidak mengandung unsur hewani non-halal.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Kalau botaknya karena faktor genetik, bisa tumbuh juga?</button>
+      <div class="faq-answer">
+        <p>Hasil akan berbeda-beda. Tapi banyak pengguna kami yang punya riwayat genetik melaporkan adanya pertumbuhan rambut baru setelah pemakaian rutin.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Bisa dicampur dengan produk rambut lain?</button>
+      <div class="faq-answer">
+        <p>Tidak disarankan. Produk lain bisa mengganggu kinerja kandungan herbal kami dan menimbulkan reaksi tak diinginkan.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Apa produk ini membuat rambut lebih hitam?</button>
+      <div class="faq-answer">
+        <p>Beberapa bahan alami seperti minyak kemiri dan urang-aring memang dikenal membantu menghitamkan rambut secara alami.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Kalau saya sedang menyusui, masih bisa pakai?</button>
+      <div class="faq-answer">
+        <p>Bisa. Produk ini tidak mengandung bahan berbahaya. Tapi jika ragu, konsultasikan dulu dengan dokter pribadi kamu.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Produk ini buatan mana?</button>
+      <div class="faq-answer">
+        <p>Diracik secara homemade oleh tim kami di Indonesia, dengan bahan lokal berkualitas dan proses higienis.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Bisa kirim ke luar kota?</button>
+      <div class="faq-answer">
+        <p>Bisa banget. Kami sudah melayani pengiriman ke seluruh Indonesia via kurir terpercaya.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Bisa COD?</button>
+      <div class="faq-answer">
+        <p>Saat ini pemesanan dilakukan via WhatsApp dan transfer bank. Sistem COD sedang dalam tahap uji coba di beberapa kota.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Apakah produk bisa expired?</button>
+      <div class="faq-answer">
+        <p>Ya. Karena ini produk alami tanpa pengawet kimia, disarankan digunakan maksimal 6 bulan setelah dibuka. Simpan di tempat sejuk dan kering.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div style="margin-top: -1px;">
+  <svg viewBox="0 0 1440 150" style="display: block;" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#2e8b57" d="M0,64L48,85.3C96,107,192,149,288,160C384,171,480,149,576,117.3C672,85,768,43,864,48C960,53,1056,107,1152,117.3C1248,128,1344,96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+  </svg>
+</div>
+<footer class="footer">
+  <div class="footer-content">
+    <img src="logo.png" alt="Logo Rambut Alami" class="footer-logo">
+    <h3>Rambut Alami</h3>
+    <p>Solusi herbal untuk rambut rontok. Dibuat dengan cinta & alam.</p>
+    <div class="footer-socials">
+      <a href="https://wa.me/46726409694" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://instagram.com/rambut.alami" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p class="copyright">&copy; 2025 Rambut Alami</p>
+  </div>
+</footer>
+<script>
+    const yesBtn = document.getElementById("btn-yes");
+    const noBtn = document.getElementById("btn-no");
+    const statusText = document.getElementById("agree-status");
+    const countText = document.getElementById("agree-count");
+
+    let agreeCount = 50;
+    let totalVotes = 70;
+    let pressed = false;
+    let spamClicked = false;
+
+    function updateCount() {
+        countText.textContent = `${agreeCount} dari ${totalVotes} orang menyetujuinya`;
+    }
+
+    function handleVote(type) {
+        if (pressed || spamClicked) return;
+        localStorage.setItem("hasVoted", "true");
+
+        pressed = true;
+        totalVotes++;
+        if (type === "yes") {
+            agreeCount++;
+            yesBtn.classList.add("pressed");
+        } else {
+            noBtn.classList.add("pressed");
+        }
+
+        yesBtn.disabled = true;
+        noBtn.disabled = true;
+
+        updateCount();
+
+        // Reset pressed status if spam detected (rapid clicks)
+        if (!spamClicked) {
+            spamClicked = false;
+            statusText.textContent = "Kamu harus tunggu 1 menit sebelum memilih lagi.";
+            setTimeout(() => {
+                spamClicked = false;
+                pressed = false;
+                yesBtn.disabled = false;
+                noBtn.disabled = false;
+                yesBtn.classList.remove("pressed");
+                noBtn.classList.remove("pressed");
+                statusText.textContent = "Apakah anda setuju produk ini bermanfaat?";
+            }, 60000);
+        }
+    }
+
+    if (localStorage.getItem("hasVoted")) {
+  yesBtn.disabled = true;
+  noBtn.disabled = true;
+  statusText.textContent = "Kamu sudah memilih sebelumnya.";
+}
+    yesBtn.addEventListener("click", () => handleVote("yes"));
+    noBtn.addEventListener("click", () => handleVote("no"));
+
+    updateCount();
+  const faqItems = document.querySelectorAll(".faq-item");
+
+  faqItems.forEach(item => {
+  item.querySelector(".faq-question").addEventListener("click", () => {
+    faqItems.forEach(i => i.classList.remove("active"));
+    item.classList.add("active");
+  });
+});
+</script>
+</body>
+  </html>
